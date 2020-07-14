@@ -1,0 +1,68 @@
+  .guest-message-head {
+    margin: 1%;
+  }
+  .guest-message {
+    overflow: overlay;
+    width: 35%;
+    padding: .7rem;
+    border-radius: 5px;
+    background-color: #c7c7c7;
+  }
+  
+  input[type="text"] {
+    padding: 1rem;
+    border: none;
+    font-size: initial;
+    flex: 1;
+    border-bottom: 1px solid;
+  }
+  
+  .input-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+  
+    margin-top: 5%;
+  }
+  
+  button {
+    flex: 0;
+  }
+  
+  .msg-username {
+    font-style: italic;
+    font-weight: 100;
+    font-size: .9rem;
+    margin-left: 1%;
+  }
+  .user-message-head {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h3 {
+    text-decoration: underline;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+  }
+  .index-wrapper {
+    text-align: center;
+}
+  .index-wrapper button {
+    flex: 0 1;
+    height: 3rem;
+    border: none;
+  }
+  .user-message {
+    background-color: #0176ff;
+    width: 35%;
+    margin: 1%;
+    padding: .7rem;  text-align: end;
+    border-radius: 5px;
+  }
